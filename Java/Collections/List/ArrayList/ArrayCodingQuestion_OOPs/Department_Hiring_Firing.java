@@ -55,7 +55,7 @@ public class Department_Hiring_Firing
             break;
             case 4:
             {
-                System.out.println("Exit Process");
+                System.out.println("Thank You Visit Again!");
                 return;
             }
             default:
