@@ -1,5 +1,11 @@
-package Collections.List.ArrayList.ArrayCodingQuestion_OOPs;
+package Collections.List.ArrayList.ArrayListCodingQuestion_OOPs;
+/*
+3. Animal Shelter Intake/Adoption
+Scenario: You run an animal shelter. Animals arrive and get adopted daily.
+Challenge: Intake animals and adopt them by name.
+Arrays are limited: Cannot handle dynamic additions/removals efficiently.
 
+ */
 import java.util.ArrayList;
 import java.util.Scanner;
 

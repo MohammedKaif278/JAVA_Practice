@@ -1,6 +1,11 @@
-package Collections.List.ArrayList.ArrayCodingQuestion_OOPs;
-
-import javax.crypto.spec.PSource;
+package Collections.List.ArrayList.ArrayListCodingQuestion_OOPs;
+/*
+2. Department Hiring/Firing
+Scenario: You're a department head. Employees are hired and fired often.
+Challenge: Add employees and remove them by name.
+Arrays fall short: Hard to remove and resize; shifting manually is error-prone.
+class Employee { String name; String role; Employee(String n, String r) { name = n; role = r; } }
+*/
 import java.util.ArrayList;
 import java.util.Scanner;
 

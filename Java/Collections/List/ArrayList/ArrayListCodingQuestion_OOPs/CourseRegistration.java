@@ -1,4 +1,10 @@
-package Collections.List.ArrayList.ArrayCodingQuestion_OOPs;
+package Collections.List.ArrayList.ArrayListCodingQuestion_OOPs;
+/*1. Course Registration System
+        Scenario: As a registrar, you manage students joining or dropping a course. The list size changes
+        unpredictably.
+        Challenge: Allow adding and dropping students.
+
+        Why arrays are insufficient: Cannot resize dynamically; you'd need to track filled slots manually.*/
 
 import java.util.ArrayList;
 import java.util.Iterator;
