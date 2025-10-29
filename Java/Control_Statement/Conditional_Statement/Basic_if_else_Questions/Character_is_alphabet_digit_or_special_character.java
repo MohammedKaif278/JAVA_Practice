@@ -2,7 +2,7 @@ package Control_Statement.Conditional_Statement.Basic_if_else_Questions;
 
 import java.util.Scanner;
 
-public class number_is_alphabet_digit_or_special_character
+public class Character_is_alphabet_digit_or_special_character
 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);

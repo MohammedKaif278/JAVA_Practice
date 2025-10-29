@@ -13,20 +13,17 @@ public class largest_of_three_numbers
         System.out.println("Enter The Third Number");
         int num3= sc.nextInt();
 
-        int max=num1;
-        if(num2>num1)
+
+        if(num1>num2 && num1>num3)
         {
-            max=num2;
-            System.out.println("The largest Number is "+max);
+            System.out.println("The largest Number is "+num1);
         }
-        else if(num3>num1)
+        else if(num2>num3)
         {
-            max=num3;
-            System.out.println("The largest Number is "+max);
+            System.out.println("The largest Number is "+num2);
         }
         else {
-            max=num1;
-            System.out.println("The largest Number is "+max);
+            System.out.println("The largest Number is "+num3);
         }
 
     }
