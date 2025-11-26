@@ -1,7 +1,15 @@
 package Patterns;
 
 /*
-
+             *
+          *  *  *
+       *  *  *  *  *
+    *  *  *  *  *  *  *
+ *  *  *  *  *  *  *  *  *
+    *  *  *  *  *  *  *
+       *  *  *  *  *
+          *  *  *
+             *
  */
 public class Full_Pyramid_Diamond_Star_Pattern {
     public static void main(String[] args) {
