@@ -11,12 +11,12 @@ public class Read_Print_Array
         int size=sc.nextInt();
         int[] a=new int[size];
         System.out.println("Enter the "+size+" array elements");
-        for(int i=0;i<=size-1;i++)
+        for(int i=0;i<= a.length-1;i++)
         {
             a[i]=sc.nextInt();
         }
 
-        for(int i=0;i<=size-1;i++)
+        for(int i=0;i<=a.length-1;i++)
         {
             System.out.println(a[i]);
         }
