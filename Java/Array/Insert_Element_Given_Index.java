@@ -9,14 +9,10 @@ public class Insert_Element_Given_Index
     {
         int[] b=new int[a.length+1];
         for(int i=0;i<a.length;i++)
-        {
-            if(i<index)
-            {
+        {   if(i<index) {
                 b[i]=a[i];
-
             }
-            else if(i==index)
-            {
+            else if(i==index) {
                 b[i]=n;
             }
             else {
