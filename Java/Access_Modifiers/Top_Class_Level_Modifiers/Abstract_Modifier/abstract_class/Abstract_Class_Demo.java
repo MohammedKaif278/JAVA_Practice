@@ -41,8 +41,34 @@ public class Abstract_Class_Demo {
 
     }
 
+    Ex . 3 :-
+    class Parent
+    {
+        public abstract void m1()
+        {
+
+        }
+    }
+    --> C.E : Parent is not abstract and does not override abstract method m1() in Parent
 
 
+    Ex . 4 :-
+    abstract class Parent
+    {
+        public abstract void m1();
+        public abstract void m2();
+    }
+
+    class Child extends Parent
+    {
+        public void m1()
+        {
+
+        }
+    }
+
+    If a class can extends any abstract class then compulsory we should provide implementation for every abstract method of the parent class
+    otherwise we have to declared child class as abstract.
 
 
 */
