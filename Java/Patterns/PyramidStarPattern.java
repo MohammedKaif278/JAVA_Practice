@@ -1,10 +1,10 @@
 package Patterns;
 /*
 
-        *
-      * * *
-    * * * * *
-  * * * * * * *
+         *
+       * * *
+     * * * * *
+   * * * * * * *
  * * * * * * * * *
 
 
@@ -25,8 +25,8 @@ public class PyramidStarPattern {
 
                 System.out.print(" * ");
             }
-            space--;
             star=star+2;
+            space--;
             System.out.println();
 
         }
