@@ -1,6 +1,6 @@
 package Patterns;
 
-public class Hollow_Pattern
+public class Hollow_Square_Pattern
 {
     public static void main(String[] args) {
         int n=5;
